@@ -1,0 +1,2178 @@
+                   index.html
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!------------------------------------- Bootstrap CSS ---------------------------------------------------------->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
+    <!------------------------------------- CSS & SCRIPT ---------------------------------------------------------->
+    <link rel="stylesheet" href="index-style.css">
+    <script src="store.js" async></script>
+
+    <title>Home Page</title>
+
+</head>
+<body style="margin-bottom: 0;">
+
+     <!-------------------------------------- NAVIGATION BAR  ----------------------------------------------------->
+   <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand" style="color: rgb(240, 149, 240);" href="#">Kitchen Story</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarScroll">
+        <ul class="navbar-nav me-auto my-2 my-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" href="#home" style="text-decoration:none;">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#trend" style="text-decoration:none;">Trending</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#store" style="text-decoration:none;">Store</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#organic" style="text-decoration:none;">Organic</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact" style="text-decoration:none;">Contact Us</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="px-2" search type="search" placeholder="Search" aria-label="Search">
+          <button class="btn0" type="submit">Search</button>
+        </form>
+        <ul class="navbar-nav me-auto my-2 my-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" href="#home"><span class="glyphicon glyphicon-shopping-cart"></span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="sigin.html">Sign-In</a>
+            </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!------------------------------------------- HOME PAGE ---------------------------------------------------------->
+<section class="main" id="home">
+    <div class="container py-5">
+    </div>
+  </section>
+  <br><br>
+  
+  <!------------------------------------------- CATEGORY SECTION ---------------------------------------------------------->
+  <section class="category" id="category">
+      <br>
+      <div class="conatiner">
+        <h1>Shop by Category</h1>
+        <hr>
+      </div>
+      <br><br>
+      <div class="row">
+        <div class="col-md-3">
+            <img src="./img/grocery.png" id="picture1" class="img-responsive" style="height: 26vh; width: 20rem;"/>
+            <p>Grocery</p>
+        </div>
+        <div class="col-md-3">
+            <img src="./img/snack.png" id="picture2" class="img-responsive" style="height: 26vh; width: 20rem;"/>
+            <p>Snacks</p>
+        </div>
+        <div class="col-md-3">
+            <img src="./img/utensils.png" id="picture3" class="img-responsive " style="height: 26vh; width: 20rem;"/>
+            <p>Utensils</p>
+            <br><br>
+        </div>
+        
+  </section>
+  <br><br>
+
+  <!------------------------------------------- TREND SECTION ---------------------------------------------------------->
+  <section class="trend" id="trend">
+      <br>
+    <div class="conatiner">
+        <h1>What's Trending</h1>
+        <hr>
+      </div>
+      <br><br>
+
+      <div class="row">
+        <div class="col-sm-3">
+          <div class="card" style="width: 26rem; align-items: center;"><br>
+            <img src="./img/trend1.png" class="card-img-top" alt="...">
+            <div class="card-body"><hr>
+                <h5 class="card-title">Monthly Pack</h5>
+                <p class="card-text">Rs. 525</p>
+                <a href="#" class="btn btn-success" value="Submit Button">Add to Cart &nbsp;&nbsp;<span class="glyphicon glyphicon-shopping-cart"></span></a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-sm-3">
+          <div class="card" style="width: 26rem; align-items: center;"><br>
+            <img src="./img/trend2.1.jpeg" class="card-img-top" alt="...">
+            <div class="card-body"><hr>
+              <h5 class="card-title">Storage Glass Jar</h5>
+              <p class="card-text">Rs.320</p>
+              <a href="#" class="btn btn-success" value="Submit Button">Add to Cart &nbsp;&nbsp;<span class="glyphicon glyphicon-shopping-cart"></span></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-3">
+            <div class="card" style="width: 26rem; align-items: center;"><br>
+              <img src="./img/trend3.jpg" class="card-img-top" alt="...">
+              <div class="card-body"><hr>
+                <h5 class="card-title">Honey Dispenser</h5>
+                <p class="card-text">Rs.320</p>
+                <a href="#" class="btn btn-success" value="Submit Button">Add to Cart &nbsp;&nbsp;<span class="glyphicon glyphicon-shopping-cart"></span></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-3">
+            <div class="card" style="width: 24rem; align-items: center;"><br>
+              <img src="./img/trend4.jpg" class="card-img-top" style="width: 22rem;">
+              <div class="card-body"><hr>
+                <h5 class="card-title">Rotatory Storage</h5>
+                <p class="card-text">Rs.320</p>
+                <a href="#" class="btn btn-success" value="Submit Button">Add to Cart &nbsp;&nbsp;<span class="glyphicon glyphicon-shopping-cart"></span></a>
+              </div>
+            </div><br><br>
+          </div>
+      </div>    
+  </section><br>
+
+  <!------------------------------------------- STORE SECTION ---------------------------------------------------------->
+  <section class="trend" id="store">
+      <br>
+    <div class="conatiner">
+        <h1>Explore Our Store</h1>
+        <hr>
+      </div>
+      <br><br>
+
+      <div class="row shop-items">
+        <div class="col-sm-3 shop-item">
+          <div class="card" style="width: 26rem; align-items: center;"><br>
+            <img src="./img/trend1.png" class="card-img-top shop-item-image" alt="...">
+            <div class="card-body"><hr>
+                <h5 class="card-title shop-item-title">Monthly Pack</h5>
+                <p class="card-text shop-item-price">Rs. 525</p>
+                <button class="btn btn-success btn-purchase" type="button">Add to Cart &nbsp;&nbsp;<span class="glyphicon glyphicon-shopping-cart"></span></button>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-sm-3 shop-item">
+            <div class="card" style="width: 26rem; align-items: center;"><br>
+              <img src="./img/prod1.webp" class="card-img-top" style="width: 22rem;">
+              <div class="card-body"><hr>
+                <h5 class="card-title">Muesli Fuit Magic</h5>
+                <p class="card-text">Rs.320</p>
+                <button class="btn btn-success btn-purchase" type="button">Add to Cart &nbsp;&nbsp;<span class="glyphicon glyphicon-shopping-cart"></span></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-3">
+            <div class="card" style="width: 26rem; align-items: center;"><br>
+              <img src="./img/prod2.jpg" class="card-img-top" style="width: 22rem;">
+              <div class="card-body"><hr>
+                <h5 class="card-title">Fresh Fruit Basket</h5>
+                <p class="card-text">Rs.320</p>
+                <a href="#" class="btn btn-success btn-purchase" value="Submit Button">Add to Cart &nbsp;&nbsp;<span class="glyphicon glyphicon-shopping-cart"></span></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-3">
+            <div class="card" style="width: 24rem; align-items: center;"><br>
+              <img src="./img/prod3.jpg" class="card-img-top" style="width: 22rem;">
+              <div class="card-body"><hr>
+                <h5 class="card-title">Fresh Dragon Fruit</h5>
+                <p class="card-text">Rs.119</p>
+                <a href="#" class="btn btn-success btn-purchase" value="Submit Button">Add to Cart &nbsp;&nbsp;<span class="glyphicon glyphicon-shopping-cart"></span></a>
+              </div>
+            </div><br><br>
+          </div>
+
+          <div class="col-sm-3">
+            <div class="card" style="width: 26rem; align-items: center;"><br>
+              <img src="./img/prod4.jpg" class="card-img-top" style="width: 22rem;">
+              <div class="card-body"><hr>
+                <h5 class="card-title">Puliyogare Powder</h5>
+                <p class="card-text">Rs.320</p>
+                <a href="#" class="btn btn-success btn-purchase" value="Submit Button">Add to Cart &nbsp;&nbsp;<span class="glyphicon glyphicon-shopping-cart"></span></a>
+              </div>
+            </div>
+          </div>
+
+        <div class="col-sm-3">
+          <div class="card" style="width: 26rem; align-items: center;"><br>
+            <img src="./img/trend2.1.jpeg" class="card-img-top" alt="...">
+            <div class="card-body"><hr>
+              <h5 class="card-title">Storage Glass Jar</h5>
+              <p class="card-text">Rs.320</p>
+              <a href="#" class="btn btn-success btn-purchase" value="Submit Button">Add to Cart &nbsp;&nbsp;<span class="glyphicon glyphicon-shopping-cart"></span></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-3">
+            <div class="card" style="width: 26rem; align-items: center;"><br>
+              <img src="./img/trend3.jpg" class="card-img-top" alt="...">
+              <div class="card-body"><hr>
+                <h5 class="card-title">Honey Dispenser</h5>
+                <p class="card-text">Rs.320</p>
+                <a href="#" class="btn btn-success btn-purchase" value="Submit Button">Add to Cart &nbsp;&nbsp;<span class="glyphicon glyphicon-shopping-cart"></span></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-3">
+            <div class="card" style="width: 24rem; align-items: center;"><br>
+              <img src="./img/trend4.jpg" class="card-img-top" style="width: 22rem;">
+              <div class="card-body"><hr>
+                <h5 class="card-title">Rotatory Storage</h5>
+                <p class="card-text">Rs.320</p>
+                <a href="#" class="btn btn-success btn-purchase" value="Submit Button">Add to Cart &nbsp;&nbsp;<span class="glyphicon glyphicon-shopping-cart"></span></a>
+              </div>
+            </div>
+          </div>
+      </div>    
+      <br>
+      <form action="store.html">
+        <button class="btn1 mt-3" type="submit" style="margin-left:550px; width:160px; height: 60px; font-size: 18px;">Explore More &nbsp;<span class="glyphicon glyphicon-chevron-right"></span</button>
+      </form>
+  </section>
+  <br><br>
+
+  <!------------------------------------------- ORGANIC SECTION ---------------------------------------------------------->
+  <section class="trend" id="organic">
+    <br>
+  <div class="conatiner">
+      <h1>Organic Store</h1>
+      <hr>
+    </div>
+    <br><br>
+
+    <div class="row">
+      <div class="col-sm-3">
+        <div class="card" style="width: 26rem; align-items: center;"><br>
+          <img src="./img/org1.png" class="card-img-top" alt="...">
+          <div class="card-body"><hr>
+              <h5 class="card-title">Peanut Butter</h5>
+              <p class="card-text">Rs. 525</p>
+              <a href="#" class="btn btn-success" value="Submit Button">Add to Cart &nbsp;&nbsp;<span class="glyphicon glyphicon-shopping-cart"></span></a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-sm-3">
+        <div class="card" style="width: 26rem; align-items: center;"><br>
+          <img src="./img/org2.png" class="card-img-top" alt="...">
+          <div class="card-body"><hr>
+            <h5 class="card-title">Healthy Tea</h5>
+            <p class="card-text">Rs.320</p>
+            <a href="#" class="btn btn-success" value="Submit Button">Add to Cart &nbsp;&nbsp;<span class="glyphicon glyphicon-shopping-cart"></span></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-3">
+          <div class="card" style="width: 26rem; align-items: center;"><br>
+            <img src="./img/org3.jfif" class="card-img-top" alt="...">
+            <div class="card-body"><hr>
+              <h5 class="card-title">Dark Chocolate</h5>
+              <p class="card-text">Rs.320</p>
+              <a href="#" class="btn btn-success" value="Submit Button">Add to Cart &nbsp;&nbsp;<span class="glyphicon glyphicon-shopping-cart"></span></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-3">
+          <div class="card" style="width: 24rem; align-items: center;"><br>
+            <img src="./img/org4.jpg" class="card-img-top" style="width: 22rem;">
+            <div class="card-body"><hr>
+              <h5 class="card-title">Rotatory Storage</h5>
+              <p class="card-text">Rs.320</p>
+              <a href="#" class="btn btn-success" value="Submit Button">Add to Cart &nbsp;&nbsp;<span class="glyphicon glyphicon-shopping-cart"></span></a>
+            </div>
+          </div><br><br>
+        </div>
+    </div>    
+</section><br>
+
+<!------------------------------------------- CONTACT US SECTION ---------------------------------------------------------->
+<section id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h1 style="color: rgb(122, 61, 17); text-align: center;"><b>Contact Us</b></h1>
+          <!-- <h6 style="color: sienna; text-align: center;"><b>Eat Healthy Stay Healthy</b></h6> -->
+          <hr style="border: 2px solid rgb(75, 33, 3);">
+  
+    <div class="container" style="background-color: white; font-weight: bolder; font-size: large; height:430px; padding-left: 20px; padding-right: 20px;" >
+      <br><br>
+  
+  <!------------------------------------- LOCATION ------------------------------------------------------->
+  <div class="row" style="width: 40%; text-align: center; float: left; padding-left: 20px;">
+    <img src="./img/map.jpg" class="card-img-top" alt="something" style="border: 2px solid rgb(31, 197, 189); height: 310px;">
+    </div>   
+  
+    <div class="row" style="width: 60%; text-align: justify; float: right; color: saddlebrown;">
+      <div class="col" style="font-weight: bolder; font-size: larger;">
+       <span class="glyphicon glyphicon-map-marker"> <b>LOCATION:</b> Madurai, Tamilnadu, India</span>
+      </div>
+  </div> <br><br>
+  
+  <!------------------------------------- MAIL ------------------------------------------------------->
+  <div class="row" style="width: 60%; text-align: justify; float: right; color: saddlebrown;">
+  <div class="col" style="font-weight: bolder; font-size: larger;">
+   <span class="glyphicon glyphicon-envelope"> <b>MAIL:</b> guruvishnu@gmail.com</span>
+  </div>
+  </div>
+  <br><br>
+  
+  <!------------------------------------- CONTACT ------------------------------------------------------->
+    <div class="row" style="width: 60%; text-align: justify; float: right; color: saddlebrown;">
+           <div class="col" style="font-weight: bolder; font-size: larger;">
+            <span class="glyphicon glyphicon-phone"> <b>CONTACT:</b> 9108101100</span>
+           </div>
+    </div>
+         <br><br>
+  
+  <!------------------------------------- FEEDBACK ------------------------------------------------------->
+   <div class="row" style="width: 60%; text-align: justify; float: right; color: saddlebrown;">
+    <div class="col" style="font-weight: bolder; font-size: larger;">
+      <div class="form-group" style="font-size: 18px;">
+        <label for="profileTextarea1">Feedback</label>
+        <textarea class="form-control" id="profileTextarea1" rows="5" style="font-size: 16px;"></textarea>
+  
+        <button class="btn1 mt-3" type="submit" style="margin-left:250px; width:160px; height: 60px; font-size: 14px;">Submit</button>
+      </div>
+    </div>
+  </div>
+  </section>
+  <br><br>
+  
+  <!------------------------------------------- FOOTER SECTION ---------------------------------------------------------->
+  <footer class="footer"><br>
+    <p>Copyright @Guru 2022</p>
+  </footer>
+</body>
+</html>
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+                          admin.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="admin-style.css">
+    <!-- <script src="admin-script.js"></script> -->
+    <title>Admin Home</title>
+</head>
+
+<body>
+<!---------------------------------------------------- HEADER SECTION ----------------------------------------------->
+    <header class="main-header" style="background: seagreen;">
+        <nav class="main-nav nav" style="font-weight: bolder; font-size: 20px;">
+            <ul>
+                <a class="navbar-brand" style="color: white; font-weight: bolder; font-size: 40px; font-family: cursive;" href="#">Kitchen Story</a>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="store.html">STORE</a></li>
+                <li><a href="#changePassword">CHANGE PASSWORD</a></li>
+                <li><a href="sigin.html">LOGOUT</a></li>
+            </ul>
+        </nav><br>
+        <h1 class="band-name" style="font-size: 50px;">IN-STORE COLLECTION</h1>
+    </header>
+    <br><br>
+    
+    <!---------------------------------------------------- SEARCH BAR ----------------------------------------------->
+    <input type="text" class="searchBar" id="myInput" placeholder="Search by Product Category" onkeyup="searchFun()"
+    style="border: 3px solid saddlebrown; font-weight: bolder; width: 68.5%; margin-left: 200px; border-radius: 12px;">
+    <br><br>
+
+    <!---------------------------------------------------- TABLE FORM SECTION ----------------------------------------------->
+    <table>
+        <tr>
+            <td> 
+                <form onsubmit="event.preventDefault();onFormSubmit();" autocomplete="off">
+                    <div>
+                        <label>Product Id*</label><label class="validation-error hide" id="pIdValidationError">This field is required.</label>
+                        <input type="text" name="pId" id="pId">
+                    </div>
+                    <div>
+                        <label>Product Name</label>
+                        <input type="text" name="pName" id="pName">
+                    </div>
+                    <div>
+                        <label>Product Price</label>
+                        <input type="text" name="pPrice" id="pPrice">
+                    </div>
+                    <div>
+                        <label>Product Brand</label>
+                        <input type="text" name="pBrand" id="pBrand">
+                    </div>
+                    <div>
+                        <label>Product Category</label><br>
+                        <select name="pCategory" id="pCategory">
+                            <option value="Fruits">Fruits</option>
+                            <option value="Vegetables">Vegetables</option>
+                            <option value="Masala">Masala</option>
+                            <option value="Snacks">Snacks</option>
+                            <option value="Utensils">Utensils</option>
+                            <option value="Organic">Organic</option>
+                          </select>
+                    </div>
+                    <div class="form-action-buttons">
+                        <input type="submit" value="Submit" style="background-color: seagreen; color: white; font-weight: bolder; font-size: 15px;">
+                    </div>
+                </form>
+            </td>
+
+            <!---------------------------------------------------- TABLE PRODUCT DATA ----------------------------------------------->
+            <td>
+                <table class="list" id="productList">
+                    <thead>
+                        <tr>
+                            <th>Product Id</th>
+                            <th>Product Name</th>
+                            <th>Product Price</th>
+                            <th>Product Brand</th>
+                            <th>Product Category</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>SN412</td>
+                            <td>Muesli Fruit Magic</td>
+                            <td>Rs.355</td>
+                            <td>Kellogg's</td>
+                            <td>Snacks</td>
+                            <td><a onClick="onEdit(this)">Edit</a>
+                                <a onClick="onDelete(this)">Delete</a></td>
+                        </tr>
+                        <tr>
+                            <td>FR865</td>
+                            <td>Fresh Fruit Basket</td>
+                            <td>Rs.1200</td>
+                            <td>Go Fresh</td>
+                            <td>Fruits</td>
+                            <td><a onClick="onEdit(this)">Edit</a>
+                                <a onClick="onDelete(this)">Delete</a></td>
+                        </tr>
+                        <tr>
+                            <td>FR728</td>
+                            <td>Fresh Kiwi</td>
+                            <td>Rs.119</td>
+                            <td>Go Fresh</td>
+                            <td>Fruits</td>
+                            <td><a onClick="onEdit(this)">Edit</a>
+                                <a onClick="onDelete(this)">Delete</a></td>
+                        </tr>
+                        <tr>
+                            <td>MA224</td>
+                            <td>MTR Puliogare Masala</td>
+                            <td>Rs.35</td>
+                            <td>MTR</td>
+                            <td>Masala</td>
+                            <td><a onClick="onEdit(this)">Edit</a>
+                                <a onClick="onDelete(this)">Delete</a></td>
+                        </tr>
+                        <tr>
+                            <td>OR652</td>
+                            <td>Dark Chocolate</td>
+                            <td>Rs.784</td>
+                            <td>Organic India</td>
+                            <td>Organic Snack</td>
+                            <td><a onClick="onEdit(this)">Edit</a>
+                                <a onClick="onDelete(this)">Delete</a></td>
+                        </tr>
+                        <tr>
+                            <td>MA476</td>
+                            <td>Monthly Masala Pack</td>
+                            <td>Rs.500</td>
+                            <td>Ruchi</td>
+                            <td>Masala</td>
+                            <td><a onClick="onEdit(this)">Edit</a>
+                                <a onClick="onDelete(this)">Delete</a></td>
+                        </tr>
+                        <tr>
+                            <td>OR487</td>
+                            <td>Healthy Tea</td>
+                            <td>Rs.1320</td>
+                            <td>Organic India</td>
+                            <td>Organic Snack</td>
+                            <td><a onClick="onEdit(this)">Edit</a>
+                                <a onClick="onDelete(this)">Delete</a></td>
+                        </tr>
+                        <tr>
+                            <td>UT262</td>
+                            <td>Storage Glass Jar</td>
+                            <td>Rs.850</td>
+                            <td>Pluto</td>
+                            <td>Utensils</td>
+                            <td><a onClick="onEdit(this)">Edit</a>
+                                <a onClick="onDelete(this)">Delete</a></td>
+                        </tr>
+                        <tr>
+                            <td>OR268</td>
+                            <td>Peanut Butter</td>
+                            <td>Rs.525</td>
+                            <td>Planet</td>
+                            <td>Organic Snack</td>
+                            <td><a onClick="onEdit(this)">Edit</a>
+                                <a onClick="onDelete(this)">Delete</a></td>
+                        </tr>
+                        <tr>
+                            <td>UT674</td>
+                            <td>Honey Dispenser</td>
+                            <td>Rs.645</td>
+                            <td>Alasa</td>
+                            <td>Utensils</td>
+                            <td><a onClick="onEdit(this)">Edit</a>
+                                <a onClick="onDelete(this)">Delete</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+    </table>
+    
+    <!-- <div>
+        <button>Get</button>
+        <div id="table"></div>
+    </div>
+    <br><br> -->
+
+    <!---------------------------------------------------- CHANGE PASSWORD SECTION ----------------------------------------------->
+    <section class="password" id="changePassword">
+        <br>
+        <div class="conatiner">
+            <h1>Change Password</h1>
+            <hr>
+          </div>
+          <br>
+          <div style="background-color: seagreen; background-repeat: no-repeat; background-size: cover;">
+            <br><br>
+            <table style="margin-left: 400px; background-color: white; border-radius: 2px; border: 10 px solid saddlebrown; width: 40%;">
+                <tr>
+                    <td> 
+                        <form id="passForm" onsubmit="event.preventDefault();onSubmitClick();" autocomplete="off" method="post">
+                            <div>
+                                <label>Old password</label><label class="validation-error hide" id="passValidationError">This field is required.</label>
+                                <input type="number" name="oldPass" id="oldPass">
+                            </div>
+                            <div>
+                                <label>New Password</label>
+                                <input type="password" name="newPass" id="newPass">
+                            </div>
+                            <div>
+                                <label>Confirm Password</label>
+                                <input type="password" name="confirmPass" id="confirmPass">
+                            </div>
+                            <div class="form-action-buttons">
+                                <input type="submit" value="Submit" style="background-color: seagreen; color: white; font-weight: bolder; font-size: 15px;">
+                            </div>
+                        </form>
+                    </td>
+                    </tr>
+                    </table><br>
+          </div>
+    </section><br><br>
+
+    <!------------------------------------------- FOOTER SECTION ---------------------------------------------------------->
+        <footer class="footer"><br>
+            <p>Copyright @Ammu 2022</p>
+        </footer>
+
+    <!---------------------------------------------------- SCRIPT REFERENCE ----------------------------------------------->
+    <script src="./admin-script.js"></script>
+    <script src="./proudctStore.js"></script>
+    
+</body>
+</html>
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+                                  sigin.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index-style.css">
+    
+    <script src="./admin-script.js"></script>
+
+    <title>Sign-In Page</title>
+
+</head>
+<body>
+       <!-------------------------------------- NAVIGATION BAR  ----------------------------------------------------->
+   <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand" style="color: rgb(240, 149, 240); nav" href="#">Kitchen Story</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarScroll">
+        <ul class="navbar-nav me-auto my-2 my-lg-0">
+          <li class="nav-item">
+            <a class="nav-link1 active" href="./index.html" onMouseOver="this.style.color='green'">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link1" href="./index.html#trend" onMouseOver="this.style.color='green'">Trending</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link1" href="./index.html#store" onMouseOver="this.style.color='green'">Store</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link1" href="./index.html#organic" onMouseOver="this.style.color='green'">Organic</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link1" href="./index.html#contact" onMouseOver="this.style.color='green'">Contact Us</a>
+          </li>
+        <!-- </ul>
+        <form class="d-flex">
+          <input class="px-2" search type="search" placeholder="Search" aria-label="Search">
+          <button class="btn0" type="submit">Search</button>
+        </form>
+        <ul class="navbar-nav me-auto my-2 my-lg-0"> -->
+            <!-- <li class="nav-item">
+              <a class="nav-link active" href="#home"><span class="glyphicon glyphicon-shopping-cart"></span></a>
+            </li> -->
+            <li class="nav-item">
+              <a class="nav-link1" href="sigin.html">Sign-In</a>
+            </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!------------------------------------------- HOME PAGE ---------------------------------------------------------->
+<section class="main2" id="home">
+    <div class="container py-5">
+      <br>
+      <div class="row py-4">
+       </div>
+       <div class="container" style="background-color: red; background-image: url(./img/back2.png); border: 5px solid saddlebrown; font-weight: bolder; font-size: large; width:40%; height:70vh;" >
+        <br><br>
+        <img src="./img/avatar.jpg" style="height: 25vh; padding-left: 130px; padding-right: 30px;"><br><br>
+        
+        <table>
+        <form onsubmit="event.preventDefault();onLogin();" autocomplete="off" method="post" style="justify-content: center; padding-left: 30px; padding-right: 30px;">
+            <div class="row">
+                  <input type="text" id="username" class="form-control" placeholder="Username" style="margin-left: 62px; height: 7vh; width: 32rem; font-size: 14px; font-weight: bold; border: 3px solid rgb(167, 12, 84);">
+                </div>
+              <br>
+              <div class="form-group">
+                <!-- <label for="exampleFormControlInput1">Emai</label> -->
+                <input type="password" id="pass" class="form-control" id="exampleFormControlInput1" placeholder="Password" style="margin-left: 52px; height: 7vh; width: 32rem; font-size: 14px; font-weight: bold; border: 3px solid rgb(19, 139, 129);">
+              </div><br>
+
+              <!-------------------------------------SUBMIT BUTTON-------------------------------------------------->
+          <div class="col-md-12 text-center">
+            
+             <a class="nav-link1" href="admin-index.html">Login</a>
+</div>
+            <br>
+              </form>
+              </div>
+    </div>    
+    </div>
+  </section>
+  
+</body>
+</html>
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+                                    store.html
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Store Collection</title>
+        <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <link rel="stylesheet" href="store-style.css" />
+        <script src="store.js" async></script>
+    </head>
+
+    <body>
+<!------------------------------------------------------ HEADER-NAVIGATION BAR ---------------------------------------------------------->
+        <header class="main-header" style="background-color: rgb(235, 131, 34);">
+            <nav class="main-nav nav" style="font-weight: bolder; font-size: 20px;">
+                <ul>
+                    <a class="navbar-brand" style="color: white; font-weight: bolder; font-size: 40px; font-family: cursive;" href="#">Kitchen Story</a>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="store.html">STORE</a></li>
+                    <li><a href="#cart">CART &nbsp;<span class="glyphicon glyphicon-shopping-cart" style="color: white;"></span></a></li>
+                    <li><a href="sigin.html">SIGN-IN</a></li>
+                </ul>
+            </nav><br>
+            <h1 class="band-name" style="font-size: 50px;">IN-STORE COLLECTION</h1>
+        </header>
+
+<!------------------------------------------------------ SEARCH BAR ---------------------------------------------------------->
+        <br><br>
+        <i class="fas fa-search"></i>
+    <input type="text" class="searchBar" id="myInput" placeholder=" Search by Product Name" onkeyup="searchFun()"
+    style="border: 3px solid saddlebrown; border-radius: 12px; font-weight: bolder; width: 60%; height:8vh; align-items: center; margin-left: 250px;">
+    <br><br>
+
+<!------------------------------------------------------ STORE ITEMS ---------------------------------------------------------->
+
+        <section class="container content-section">
+            <br>
+            <div class="shop-items" id="shop-items">
+                <div class="shop-item" id="shop-item"><br><br>
+                    <span class="shop-item-title">Muesli Fruit Magic</span>
+                    <img class="shop-item-image" src="./img/prod1.webp">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">Rs.355</span>
+                        <button 
+                        class="btn btn-primary shop-item-button" type="button" style="background-color: seagreen;">
+                        ADD TO CART&nbsp;&nbsp;<span class="glyphicon glyphicon-shopping-cart" style="color: white;"></span>
+                        </button>
+                    </div>
+                </div>
+                <div class="shop-item" id="shop-item"><br><br>
+                    <span class="shop-item-title">Fresh Fruit Basket</span>
+                    <img class="shop-item-image" src="./img/prod2.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">Rs.1200</span>
+                        <button 
+                        class="btn btn-primary shop-item-button" type="button" style="background-color: seagreen;">
+                        ADD TO CART&nbsp;&nbsp;<span class="glyphicon glyphicon-shopping-cart" style="color: white;"></span>
+                        </button>
+                    </div>
+                </div>
+                <div class="shop-item"><br><br> 
+                    <span class="shop-item-title">Fresh Kiwi</span>
+                    <img class="shop-item-image" src="./img/prod3.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">Rs.119</span>
+                        <button 
+                        class="btn btn-primary shop-item-button" type="button" style="background-color: seagreen;">
+                        ADD TO CART&nbsp;&nbsp;<span class="glyphicon glyphicon-shopping-cart" style="color: white;"></span>
+                        </button>
+                    </div>
+                </div>
+                <div class="shop-item"><br><br>
+                    <span class="shop-item-title">MTR Puliyogare Masala</span>
+                    <img class="shop-item-image" src="./img/prod4.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">Rs.85</span>
+                        <button 
+                        class="btn btn-primary shop-item-button" type="button" style="background-color: seagreen;">
+                        ADD TO CART&nbsp;&nbsp;<span class="glyphicon glyphicon-shopping-cart" style="color: white;"></span>
+                        </button>
+                    </div>
+                </div>
+                <div class="shop-item"><br><br>
+                    <span class="shop-item-title">Monthly Masala Pack</span>
+                    <img class="shop-item-image" src="./img/trend1.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">RS.500</span>
+                        <button 
+                        class="btn btn-primary shop-item-button" type="button" style="background-color: seagreen;">
+                        ADD TO CART&nbsp;&nbsp;<span class="glyphicon glyphicon-shopping-cart" style="color: white;"></span>
+                        </button>
+                    </div>
+                </div>
+                <div class="shop-item"><br><br>
+                    <span class="shop-item-title">Storage Glass Jars</span>
+                    <img class="shop-item-image" src="./img/trend2.1.jpeg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">Rs.850</span>
+                        <button 
+                        class="btn btn-primary shop-item-button" type="button" style="background-color: seagreen;">
+                        ADD TO CART&nbsp;&nbsp;<span class="glyphicon glyphicon-shopping-cart" style="color: white;"></span>
+                        </button>
+                    </div>
+                </div>
+                <div class="shop-item"><br><br>
+                    <span class="shop-item-title">Honey Dispenser</span>
+                    <img class="shop-item-image" src="./img/trend3.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">Rs.645</span>
+                        <button 
+                        class="btn btn-primary shop-item-button" type="button" style="background-color: seagreen;">
+                        ADD TO CART&nbsp;&nbsp;<span class="glyphicon glyphicon-shopping-cart" style="color: white;"></span>
+                        </button>
+                    </div>
+                </div>
+
+                
+                <div class="shop-item"><br><br>
+                    <span class="shop-item-title">Rotatory Storage</span>
+                    <img class="shop-item-image" src="./img/trend4.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">Rs.740</span>
+                        <button 
+                        class="btn btn-primary shop-item-button" type="button" style="background-color: seagreen;">
+                        ADD TO CART&nbsp;&nbsp;<span class="glyphicon glyphicon-shopping-cart" style="color: white;"></span>
+                        </button>
+                    </div>
+                </div>
+                <div class="shop-item"><br><br>
+                    <span class="shop-item-title">Bread Flour</span>
+                    <img class="shop-item-image" src="./img/prod4.webp">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">Rs.490</span>
+                        <button 
+                        class="btn btn-primary shop-item-button" type="button" style="background-color: rgb(235, 131, 34);">
+                        ADD TO CART&nbsp;&nbsp;<span class="glyphicon glyphicon-shopping-cart" style="color: white;"></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section><br><br>
+
+<!------------------------------------------------------ CART SECTION ---------------------------------------------------------->
+        <section class="container content-section" id="cart">
+            <h1 style="text-align: center; font-weight: bolder; font-size: 35px; color: rgb(107, 47, 7);">CART</h1>
+            <hr style="border: 2px solid rgb(107, 47, 7);">
+            <!-- <h2 class="section-header">CART</h2> -->
+            <div class="cart-row">
+                <span class="cart-item cart-header cart-column">ITEM</span>
+                <span class="cart-price cart-header cart-column">PRICE</span>
+                <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+            </div>
+            <div class="cart-items">
+            </div>
+            <div class="cart-total">
+                <strong class="cart-total-title">Total</strong>
+                <span class="cart-total-price">Rs.0/-</span>
+            </div>
+            <form action="payment.html">
+                 <button class="btn btn-primary btn-purchase" type="submit" style="background-color: rgb(235, 131, 34);">PURCHASE</button>
+            </form>
+        </section>
+       
+<!------------------------------------------- FOOTER SECTION ---------------------------------------------------------->
+        <footer class="footer"><br>
+            <p>Copyright @guruvishnu 2022</p>
+        </footer>
+    </body>
+</html>
+__________________________________________________________________________________________________________________________________________________________________________________________________
+
+              admin-style.css
+body > table{
+    width: 100%;
+}
+
+/* ---------------------------------------- NAVIGATION BAR ------------------------------------------------- */
+.nav ul {
+    margin: 0;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    display: inline-block;
+    padding: .5em;
+    color: white;
+    text-decoration: none;
+}
+
+.main-nav {
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255, 255, 255, .3)
+}
+
+.main-nav li {
+    padding: 0 2%;
+}
+
+.nav a:hover {
+    background-color: rgba(255, 255, 255, .3)
+}
+
+/* ---------------------------------------- HEADER SECTION ------------------------------------------------- */
+.main-header {
+    background-color: rgba(0, 0, 0, .6);
+    background-image: url("Images/Header Background.jpg");
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 30px;
+}
+
+/* ---------------------------------------- BAND SECTION ------------------------------------------------- */
+.band-name {
+    text-align: center;
+    margin: 0;
+    font-size: 4em;
+    font-family: "Booter - Zero Zero";
+    font-weight: normal;
+    color: white;
+}
+
+.band-name-large {
+    font-size: 8em;
+}
+
+/* ---------------------------------------- TABLE SECTION ------------------------------------------------- */
+table{
+    border-collapse: collapse;
+}
+
+table.list{
+    width:100%;
+}
+
+td, th {
+    border: 2px solid saddlebrown;
+    /* #dddddd; */
+    text-align: left;
+    padding: 8px;
+    font-size: medium;
+}
+
+tr:nth-child(even),table.list thead>tr {
+    background-color: rgb(194, 134, 107);
+    /* #dddddd; */
+}
+
+/* ---------------------------------------- FORM SECTION ------------------------------------------------- */
+form{
+    font-weight: bolder;
+    color: rgb(107, 47, 7);;
+}
+
+input[type=text], input[type=number], input[type=password], select, option {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+
+input[type=submit]{
+    width: 30%;
+    background-color: #ddd;
+    color: #000;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form div.form-action-buttons{
+    text-align: right;
+}
+
+a{
+    cursor: pointer;
+    text-decoration: underline;
+    color: #0000ee;
+    margin-right: 4px;
+}
+
+label.validation-error{
+    color:   red;
+    margin-left: 5px;
+}
+
+.hide{
+    display:none;
+}
+
+/* ---------------------------------------- CHANGE PASSWORD ------------------------------------------------- */
+.password h1{
+    font-weight: 1000;
+    text-align: center;
+    color: rgb(117, 67, 31);
+    border-radius: 15px;
+    font-weight: bolder;
+    font-size: 32px;
+    font-family: cursive;
+}
+
+.password hr{
+    border: 2px solid rgb(107, 47, 7);
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+/* ---------------------------------------- FOOTER ------------------------------------------------- */
+.footer{
+    background-color: rgb(2, 53, 2);
+    color: white;
+    font-weight: bolder;
+    bottom: 0;
+    width: 100%; 
+    height: 50px; 
+    text-align: center;
+}
+-----------------------------------------------------------------------------------------------------------------------------------------
+                  index.style.css
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* ---------------------------------------- NAVBAR ------------------------------------------------- */
+.navbar-brand{
+    font-size: 3rem;
+    color: black;
+    font-family: 'Sans-serif', cursive;
+}
+
+.navbar-brand:hover{
+    color: seagreen;
+}
+
+a:link{
+    text-decoration: none!important;
+  }
+  
+.nav-link{
+    margin-right: 5px;
+    margin-left: 5px;
+    color: saddlebrown;
+    font-family: monospace;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.nav-link1{
+    margin-right: 35px;
+    padding-left: 25px;
+    margin-left: 5px;
+    color: saddlebrown;
+    font-family: monospace;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.nav-link:hover{
+    color: seagreen;
+}
+
+.search{
+    height: 40px;
+    width: 100%;
+    border-radius: 60px;
+    outline: none;
+    margin-right: 35px;
+    border: 2px solid rgb(248, 26, 92);
+}
+
+/* ---------------------------------------- MAIN ------------------------------------------------- */
+.main{
+    background: url(./img/back1.png) no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 90vh;
+    width: 100%;
+}
+
+.main2{
+    background: url(./img/back.webp) no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 90vh;
+    width: 100%;
+}
+
+/* ---------------------------------------- FOOTER ------------------------------------------------- */
+.footer{
+    background-color: rgb(228, 214, 22);
+    color: white;
+    font-weight: bolder;
+    bottom: 0;
+    width: 100%; 
+    height: 50px; 
+}
+
+/* ---------------------------------------- CATEGORY ------------------------------------------------- */
+.category{
+    margin-left: 70px;
+    margin-right: 70px; 
+    align-items: center;
+    background-color: rgb(224, 222, 87);
+}
+.category img{
+    align-items: center;
+    margin-left: 170px;
+    margin-right: 550px;
+}
+
+.category h1{
+    font-weight: 1000;
+    text-align: center;
+    color: rgb(122, 61, 17);
+    border-radius: 15px;
+    font-weight: bolder;
+    font-size: 32px;
+    font-family: cursive;
+}
+
+.category hr{
+    border: 2px solid rgb(63, 28, 4);
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.category p{
+    font-size: 26px;
+    font-weight: bolder;
+    text-align: center;
+    margin-left: 230px;
+    color: rgb(54, 26, 6);
+}
+
+/* ---------------------------------------- TREND ------------------------------------------------- */
+.trend{
+    margin-left: 70px;
+    margin-right: 70px; 
+    align-items: center;
+    background-color: rgb(216, 250, 216);
+}
+
+.trend h1{
+    font-weight: 1000;
+    text-align: center;
+    color: rgb(117, 67, 31);
+    /* rgb(122, 61, 17); */
+    border-radius: 15px;
+    font-weight: bolder;
+    font-size: 32px;
+    font-family: cursive;
+}
+
+.trend hr{
+    border: 2px solid rgb(107, 47, 7);
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.trend h5, p{
+    font-size: 18px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.trend img{
+    height: 25vh;
+    width: 25rem;
+}
+
+.card{
+    margin-left: 25px;
+    margin-right: 30px;
+}
+
+/* ---------------------------------------- LOGIN ------------------------------------------------- */
+.login{
+    background-color: seashell;
+}
+
+/* ---------------------------------------- CART ------------------------------------------------- */
+.cart-header {
+    font-weight: bold;
+    font-size: 1.25em;
+    color: #333;
+}
+
+.cart-column {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+    margin-right: 1.5em;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.cart-row {
+    display: flex;
+}
+
+.cart-item {
+    width: 45%;
+}
+
+.cart-price {
+    width: 20%;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.cart-quantity {
+    width: 35%;
+}
+
+.cart-item-title {
+    color: #333;
+    margin-left: .5em;
+    font-size: 1.2em;
+}
+
+.cart-item-image {
+    width: 75px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.btn-danger {
+    color: white;
+    background-color: #EB5757;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+}
+
+.btn-danger:hover {
+    background-color: #CC4C4C;
+}
+
+.cart-quantity-input {
+    height: 34px;
+    width: 50px;
+    border-radius: 5px;
+    border: 1px solid #56CCF2;
+    background-color: #eee;
+    color: #333;
+    padding: 0;
+    text-align: center;
+    font-size: 1.2em;
+    margin-right: 25px;
+}
+
+.cart-row:last-child {
+    border-bottom: 1px solid black;
+}
+
+.cart-row:last-child .cart-column {
+    border: none;
+}
+
+.cart-total {
+    text-align: end;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.cart-total-title {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: black;
+    margin-right: 20px;
+}
+
+.cart-total-price {
+    color: #333;
+    font-size: 1.1em;
+}
+
+.btn-purchase {
+    display: block;
+    margin: 40px auto 80px auto;
+    font-size: 1.75em;
+}
+
+/* ---------------------------------------- BUTTONS ------------------------------------------------- */
+.btn{
+    align-items: center;
+    width: 15rem;
+    height: 5vh;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.btn0{
+    height: 40px;
+    width: 100px;
+    outline: none;
+    border: none;
+    background: rgb(20, 165, 20);
+    color: white;
+    border-radius: 60px;
+    font-weight: 700;
+}
+
+.btn1{
+    height: 30vh;
+    width: 16%;
+    outline: none;
+    border: none;
+    background-color: rgb(23, 136, 23);
+    border: 3px solid rgb(33, 185, 96);
+    color: white;
+    font-weight: 1050;
+    border-radius: 60px;
+    align-items: center;
+    /* margin-left: 460px; */
+    /* transform: rotate(-5deg); */
+    font-weight: bolder;
+}
+-------------------------------------------------------------------------------------------------------------------
+                              payment-style.css
+
+body {
+    font-family: Arial;
+    font-size: 18px;
+    padding: 8px;
+    background-color: rgb(216, 250, 216);
+    color: saddlebrown;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: 0 -16px;
+  }
+  
+  .col-25 {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+  }
+  
+  .col-50 {
+    -ms-flex: 50%; /* IE10 */
+    flex: 50%;
+  }
+  
+  .col-75 {
+    -ms-flex: 75%; /* IE10 */
+    flex: 75%;
+  }
+  
+  .col-25,
+  .col-50,
+  .col-75 {
+    padding: 0 16px;
+  }
+  
+  .container {
+    background-color: #f2f2f2;
+    padding: 5px 20px 15px 20px;
+    border: 3px solid saddlebrown;
+    border-radius: 3px;
+  }
+  
+  input[type=text] {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid saddlebrown;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: small;
+  }
+  
+  label {
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  .icon-container {
+    margin-bottom: 20px;
+    padding: 7px 0;
+    font-size: 24px;
+  }
+  
+  .btn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    width: 100%;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  .btn:hover {
+    background-color: #45a049;
+  }
+  
+  a {
+    color: #2196F3;
+  }
+  
+  hr {
+    border: 1px solid lightgrey;
+  }
+------------------------------------------------------------------------------------------------------------------------------------------------
+                       store-style.css
+
+* {
+    box-sizing: border-box;
+    font-family: Raleway;
+    color: #777;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+}
+
+/* ---------------------------------------- NAVIGATION BAR ------------------------------------------------- */
+.nav ul {
+    margin: 0;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    display: inline-block;
+    padding: .5em;
+    color: white;
+    text-decoration: none;
+}
+
+.main-nav {
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255, 255, 255, .3)
+}
+
+.main-nav li {
+    padding: 0 5%;
+}
+
+.nav a:hover {
+    background-color: rgba(255, 255, 255, .3)
+}
+
+/* ---------------------------------------- HEADER ------------------------------------------------- */
+.main-header {
+    background-color: rgba(0, 0, 0, .6);
+    background-image: url("Images/Header Background.jpg");
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 30px;
+}
+
+/* ---------------------------------------- BAND ------------------------------------------------- */
+.band-name {
+    text-align: center;
+    margin: 0;
+    font-size: 4em;
+    font-family: "Booter - Zero Zero";
+    font-weight: normal;
+    color: white;
+}
+
+.band-name-large {
+    font-size: 8em;
+}
+
+.about-band-image {
+    float: left;
+    height: 200px;
+    width: 200px;
+    margin: 15px;
+    border-radius: 50%;
+}
+/* ---------------------------------------- CONTENT-CONTAINER ------------------------------------------------- */
+.content-section {
+    margin: 1em;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+.section-header {
+    font-family: "Metal Mania";
+    font-weight: normal;
+    color: #333;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+/* ---------------------------------------- FOOTER ------------------------------------------------- */
+.main-footer {
+    background-color: #56CCF2;
+    color: white;
+    padding: .25em 0;
+}
+
+.main-footer-container {
+    display: flex;
+    align-items: center;
+}
+
+.main-footer-container ul {
+    flex-grow: 1;
+    text-align: end;
+}
+
+.footer{
+    background-color: rgb(2, 53, 2);
+    color: #ffffff;
+    font-weight: bolder;
+    text-align: center;
+    bottom: 0;
+    width: 100%; 
+    height: 50px; 
+}
+
+/* ---------------------------------------- BUTTONS ------------------------------------------------- */
+.btn {
+    text-align: center;
+    vertical-align: middle;
+    padding: .67em .67em;
+    cursor: pointer;
+}
+
+.btn-header {
+    margin: .5em 15% 2em 15%;
+    color: white;
+    border: 2px solid #2D9CDB;
+    background-color: rgba(255, 255, 255, .1);
+    border-radius: 0;
+    font-size: 1.5em;
+    font-weight: lighter;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.btn-header:hover {
+    background-color: rgba(255, 255, 255, .3);
+}
+
+.btn-play {
+    display: block;
+    margin: 0 auto;
+    color: #2D9CDB;
+    font-size: 4em;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    padding: 0;
+    text-align: center;
+}
+
+.btn-primary {
+    color: white;
+    background-color: #56CCF2;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background-color: #2D9CDB;
+}
+
+/* ---------------------------------------- TOUR ------------------------------------------------- */
+.tour-row {
+    border-bottom: 1px solid black;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+}
+
+.tour-row:last-child {
+    border: none;
+}
+
+.tour-item {
+    display: inline-block;
+    padding-right: .5em;
+}
+
+.tour-date {
+    color: #555;
+    width: 11%;
+    font-weight: bold;
+}
+
+.tour-city {
+    width: 24%;
+}
+
+.tour-arena {
+    width: 42%;
+}
+
+.tour-btn {
+    max-width: 19%;
+}
+
+/* ---------------------------------------- SHOP ITEMS SECTION ------------------------------------------------- */
+.shop-item {
+    margin: 10px;
+}
+
+.shop-item-title {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.shop-item-image {
+    height: 250px;
+}
+
+.shop-item-details {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.shop-item-price {
+    flex-grow: 1;
+    color: rgb(107, 47, 7);
+    font-weight: bold;
+    font-size: larger;
+}
+
+.shop-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* ---------------------------------------- CART SECTION ------------------------------------------------- */
+.cart-header {
+    font-weight: bold;
+    font-size: 1.25em;
+    color: rgb(107, 47, 7);
+}
+
+.cart-column {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgb(107, 47, 7);
+    margin-right: 1.5em;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.cart-row {
+    display: flex;
+}
+
+.cart-item {
+    width: 45%;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.cart-price {
+    width: 20%;
+    font-size: 1.2em;
+    color: rgb(107, 47, 7);
+    font-weight: bold;
+    font-size: larger;
+}
+
+.cart-quantity {
+    width: 35%;
+}
+
+.cart-item-title {
+    color: rgb(107, 47, 7);
+    margin-left: .5em;
+    font-size: 1.2em;
+}
+
+.cart-item-image {
+    width: 75px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.btn-danger {
+    color: white;
+    background-color: #EB5757;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+}
+
+.btn-danger:hover {
+    background-color: #CC4C4C;
+}
+
+.cart-quantity-input {
+    height: 34px;
+    width: 50px;
+    border-radius: 5px;
+    border: 1px solid #56CCF2;
+    background-color: #eee;
+    color: #333;
+    padding: 0;
+    text-align: center;
+    font-size: 1.2em;
+    margin-right: 25px;
+}
+
+.cart-row:last-child {
+    border-bottom: 1px solid black;
+}
+
+.cart-row:last-child .cart-column {
+    border: none;
+}
+
+.cart-total {
+    text-align: end;
+    margin-top: 10px;
+    margin-right: 10px;
+    color: rgb(107, 47, 7);
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.cart-total-title {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: rgb(107, 47, 7);
+    margin-right: 20px;
+}
+
+.cart-total-price {
+    color: rgb(107, 47, 7);;
+    font-size: 1.1em;
+}
+
+.btn-purchase {
+    display: block;
+    margin: 40px auto 80px auto;
+    font-size: 1.75em;
+}
+___________________________________________________________________________________________________________________________________________
+ 
+
+          admin-script.js
+
+var selectedRow = null
+
+/* ---------------------------------------- SUBMIT PRODUCT FORM ------------------------------------------------- */
+function onFormSubmit() {
+    if (validate()) {
+        var formData = readFormData();
+        if (selectedRow == null)
+            insertNewRecord(formData);
+        else
+            updateRecord(formData);
+        resetForm();
+    }
+}
+
+/* ---------------------------------------- FETCH FORM DATA ------------------------------------------------- */
+function readFormData() {
+    var formData = {};
+    formData["pId"] = document.getElementById("pId").value;
+    formData["pName"] = document.getElementById("pName").value;
+    formData["pPrice"] = document.getElementById("pPrice").value;
+    formData["pBrand"] = document.getElementById("pBrand").value;
+    formData["pCategory"] = document.getElementById("pCategory").value;
+    return formData;
+}
+
+/* ---------------------------------------- INSERT NEW PRODUCT ------------------------------------------------- */
+function insertNewRecord(data) {
+    var table = document.getElementById("productList").getElementsByTagName('tbody')[0];
+    var newRow = table.insertRow(table.length);
+    cell1 = newRow.insertCell(0);
+    cell1.innerHTML = data.pId;
+    cell2 = newRow.insertCell(1);
+    cell2.innerHTML = data.pName;
+    cell3 = newRow.insertCell(2);
+    cell3.innerHTML = data.pPrice;
+    cell4 = newRow.insertCell(3);
+    cell4.innerHTML = data.pBrand;
+    cell5 = newRow.insertCell(4);
+    cell5.innerHTML = data.pCategory;
+    cell6 = newRow.insertCell(5);
+    cell6.innerHTML = `<a onClick="onEdit(this)">Edit</a>
+                       <a onClick="onDelete(this)">Delete</a>`;
+}
+
+/* ---------------------------------------- FORM RESET ------------------------------------------------- */
+function resetForm() {
+    document.getElementById("pId").value = "";
+    document.getElementById("pName").value = "";
+    document.getElementById("pPrice").value = "";
+    document.getElementById("pBrand").value = "";
+    document.getElementById("pCategory").value = "";
+    selectedRow = null;
+}
+
+/* ---------------------------------------- EDIT PRODUCT DETAILS ------------------------------------------------- */
+function onEdit(td) {
+    selectedRow = td.parentElement.parentElement;
+    document.getElementById("pId").value = selectedRow.cells[0].innerHTML;
+    document.getElementById("pName").value = selectedRow.cells[1].innerHTML;
+    document.getElementById("pPrice").value = selectedRow.cells[2].innerHTML;
+    document.getElementById("pBrand").value = selectedRow.cells[3].innerHTML;
+    document.getElementById("pCategory").value = selectedRow.cells[4].innerHTML;
+}
+
+/* ---------------------------------------- UPDATE PRODUCT LIST ------------------------------------------------- */
+function updateRecord(formData) {
+    selectedRow.cells[0].innerHTML = formData.pId;
+    selectedRow.cells[1].innerHTML = formData.pName;
+    selectedRow.cells[2].innerHTML = formData.pPrice;
+    selectedRow.cells[3].innerHTML = formData.pBrand;
+    selectedRow.cells[4].innerHTML = formData.pCategory;
+}
+
+/* ---------------------------------------- DELETE ITEM ------------------------------------------------- */
+function onDelete(td) {
+    if (confirm('Are you sure to delete this record ?')) {
+        row = td.parentElement.parentElement;
+        document.getElementById("productList").deleteRow(row.rowIndex);
+        resetForm();
+    }
+}
+
+/* ---------------------------------------- VALIDATE PRODUCT FORM ------------------------------------------------- */
+function validate() {
+    isValid = true;
+    if (document.getElementById("pId").value == "") {
+        isValid = false;
+        document.getElementById("pIdValidationError").classList.remove("hide");
+    } else {
+        isValid = true;
+        if (!document.getElementById("pIdValidationError").classList.contains("hide"))
+            document.getElementById("pIdValidationError").classList.add("hide");
+    }
+    return isValid;
+}
+
+/* ---------------------------------------- CHANGE PASSWORD ------------------------------------------------- */
+function onSubmitClick() {
+    var flag = true;
+    if(document.getElementById('oldPass').value == "" || document.getElementById('newPass').value == "" || document.getElementById('confirmPass').value =="")
+    {
+        alert("Fields cannot be empty")
+        document.getElementById("passForm").reset();
+        flag = false;
+        return false;
+    }
+
+    if(flag == true)
+        checkConfirmPass();
+}
+
+function checkConfirmPass()
+{
+    var flag = true;
+    if(document.getElementById('oldPass').value == document.getElementById('newPass').value)
+    {
+        alert('New password cannot be same as old password !!')
+        document.getElementById("passForm").reset();
+        flag = false;
+        return false;
+    }
+    else if(document.getElementById('newPass').value != document.getElementById('confirmPass').value)
+    {
+        alert('Passwords entered do not match !!')
+        document.getElementById("passForm").reset();
+        flag = false;
+        return false;
+    }
+    if(flag == true)
+        checkChangePass();
+}
+
+function checkChangePass(){
+    if (confirm('Are you sure to change the password ?')) {
+        alert('Password changed successfully !!')
+        document.getElementById("passForm").reset();
+    }
+}
+
+/* ---------------------------------------- LOGIN FUNCTION ------------------------------------------------- */
+function onLogin()
+{
+    var storedName = "admin@gmail.com";
+    var storedPass = "1234";
+    // storedPass = document.getElementById('newPass').value;
+
+    var username = document.getElementById("username").value;
+    var password = document.getElementById("pass").value;
+    if ( username == storedName && password == storedPass)
+    {
+    alert ("Login successfull");
+    window.location = "admin-index.html"; // Redirecting to other page.
+    return false;
+    }
+}
+
+/* ---------------------------------------- SEARCH FUNCTION ------------------------------------------------- */
+const searchFun = () =>{
+    let filter = document.getElementById('myInput').value.toUpperCase();
+    let myTables = document.getElementById('productList');
+    let tr = myTables.getElementsByTagName('tr');
+
+    for(var i=0; i<tr.length; i++)
+    {
+        let td = tr[i].getElementsByTagName('td')[4];
+
+        if(td)
+        {
+            let textvalue = td.textContent || td.innerHTML;
+
+            if(textvalue.toUpperCase().indexOf(filter) > -1)
+            {
+                tr[i].style.display = ""
+            }
+            else{
+                tr[i].style.display = "none";
+            }
+        }
+    }
+}
+----------------------------------------------------------------------------------------------------------------
+                   productStore.css
+
+let btnGet = document.querySelector('button');
+let myTable = document.querySelector('#table');
+
+let employees = [
+    { pId: 'SN412', pName: 'Muesli Fruit Magic', pPrice: 'Rs.355', pBrand: 'Kellogg\'s', pCategory: 'Snacks', pEdit: 'Edit', pDlt: 'Delete'}
+//     { name: 'Rony', age: 31, country: 'United Kingdom' },
+//     { name: 'Peter', age: 58, country: 'Canada' },
+//     { name: 'Marks', age: 20, country: 'Spain' }
+]
+let headers = ['Product Id', 'Product Name', 'Product Price', 'Product Brand', 'Product Category'];
+btnGet.addEventListener('click', () => {
+    let table = document.createElement('table');
+    let headerRow = document.createElement('tr');
+    headers.forEach(headerText => {
+        let header = document.createElement('th');
+        let textNode = document.createTextNode(headerText);
+        header.appendChild(textNode);
+        headerRow.appendChild(header);
+    });
+    table.appendChild(headerRow);
+    employees.forEach(emp => {
+        let row = document.createElement('tr');
+        Object.values(emp).forEach(text => {
+            let cell = document.createElement('td');
+            let textNode = document.createTextNode(text);
+            cell.appendChild(textNode);
+            row.appendChild(cell);
+        })
+        table.appendChild(row);
+    });
+    myTable.appendChild(table);
+});
+
+let anchor=document.createElement("a");
+anchor.href="_anylinkthatyouwanttoadd_";
+anchor.onclick="onDelete(this)"
+anchor.innerText="Delete";//optional
+console.log(anchor)
+let to_add=document.getElementById("#table")
+to_add.appendChild(anchor)
+
+function onDelete(td) {
+    if (confirm('Are you sure to delete this record ?')) {
+        row = td.parentElement.parentElement;
+        document.getElementById("productList").deleteRow(row.rowIndex);
+        resetForm();
+    }
+}
+----------------------------------------------------------------------------------------------------------------------
+                          store.js
+if (document.readyState == 'loading') {
+    document.addEventListener('DOMContentLoaded', ready)
+} else {
+    ready()
+}
+
+function ready() {
+    var removeCartItemButtons = document.getElementsByClassName('btn-danger')
+    for (var i = 0; i < removeCartItemButtons.length; i++) {
+        var button = removeCartItemButtons[i]
+        button.addEventListener('click', removeCartItem)
+    }
+
+    var quantityInputs = document.getElementsByClassName('cart-quantity-input')
+    for (var i = 0; i < quantityInputs.length; i++) {
+        var input = quantityInputs[i]
+        input.addEventListener('change', quantityChanged)
+    }
+
+    var addToCartButtons = document.getElementsByClassName('shop-item-button')
+    for (var i = 0; i < addToCartButtons.length; i++) {
+        var button = addToCartButtons[i]
+        button.addEventListener('click', addToCartClicked)
+    }
+
+    document.getElementsByClassName('btn-purchase')[0].addEventListener('click', purchaseClicked)
+}
+
+/* ---------------------------------------- PURCHASE FUNCTION ------------------------------------------------- */
+function purchaseClicked() {
+    // alert('Thank you for your purchase')
+    var cartItems = document.getElementsByClassName('cart-items')[0]
+    while (cartItems.hasChildNodes()) {
+        cartItems.removeChild(cartItems.firstChild)
+    }
+    updateCartTotal()
+}
+
+/* ---------------------------------------- REMOVE CART ITEM ------------------------------------------------- */
+function removeCartItem(event) {
+    var buttonClicked = event.target
+    buttonClicked.parentElement.parentElement.remove()
+    updateCartTotal()
+}
+
+/* ---------------------------------------- CHANGE QUANTITY ------------------------------------------------- */
+function quantityChanged(event) {
+    var input = event.target
+    if (isNaN(input.value) || input.value <= 0) {
+        input.value = 1
+    }
+    updateCartTotal()
+}
+
+/* ---------------------------------------- INSERT CART ITEM EVENT-LISTENER ------------------------------------------------- */
+function addToCartClicked(event) {
+    var button = event.target
+    var shopItem = button.parentElement.parentElement
+    var title = shopItem.getElementsByClassName('shop-item-title')[0].innerText
+    var price = shopItem.getElementsByClassName('shop-item-price')[0].innerText
+    var imageSrc = shopItem.getElementsByClassName('shop-item-image')[0].src
+    addItemToCart(title, price, imageSrc)
+    updateCartTotal()
+}
+
+/* ---------------------------------------- INSERT CART ITEM ------------------------------------------------- */
+function addItemToCart(title, price, imageSrc) {
+    var cartRow = document.createElement('div')
+    cartRow.classList.add('cart-row')
+    var cartItems = document.getElementsByClassName('cart-items')[0]
+    var cartItemNames = cartItems.getElementsByClassName('cart-item-title')
+    for (var i = 0; i < cartItemNames.length; i++) {
+        if (cartItemNames[i].innerText == title) {
+            alert('This item is already added to the cart')
+            return
+        }
+    }
+    var cartRowContents = `
+        <div class="cart-item cart-column">
+            <img class="cart-item-image" src="${imageSrc}" width="100" height="100">
+            <span class="cart-item-title">${title}</span>
+        </div>
+        <span class="cart-price cart-column">${price}</span>
+        <div class="cart-quantity cart-column">
+            <input class="cart-quantity-input" type="number" value="1">
+            <button class="btn btn-danger" type="button">REMOVE</button>
+        </div>`
+    cartRow.innerHTML = cartRowContents
+    cartItems.append(cartRow)
+    cartRow.getElementsByClassName('btn-danger')[0].addEventListener('click', removeCartItem)
+    cartRow.getElementsByClassName('cart-quantity-input')[0].addEventListener('change', quantityChanged)
+}
+
+/* ---------------------------------------- CART UPDATE ------------------------------------------------- */
+function updateCartTotal() {
+    var cartItemContainer = document.getElementsByClassName('cart-items')[0]
+    var cartRows = cartItemContainer.getElementsByClassName('cart-row')
+    var total = 0
+    for (var i = 0; i < cartRows.length; i++) {
+        var cartRow = cartRows[i]
+        var priceElement = cartRow.getElementsByClassName('cart-price')[0]
+        var quantityElement = cartRow.getElementsByClassName('cart-quantity-input')[0]
+        var price = parseFloat(priceElement.innerText.replace('Rs.', ''))
+        var quantity = quantityElement.value
+        total = total + (price * quantity)
+    }
+    total = Math.round(total * 100) / 100
+    document.getElementsByClassName('cart-total-price')[0].innerText = 'Rs.' + total +'/-'
+}
+
+/* ---------------------------------------- search function ------------------------------------------------- */
+const searchFun = () =>{
+    let filter = document.getElementById('myInput').value.toUpperCase();
+    let storeItems = document.getElementById('shop-items')
+    const product = document.querySelectorAll('.shop-item')
+    const pname = document.getElementsByClassName('shop-item-title')
+
+    for(var i=0; i<pname.length; i++)
+    {
+        let match = product[i].getElementsByClassName('shop-item-title')[0];
+
+        if(match)
+        {
+            let textvalue = match.textContent || match.innerHTML
+
+            if(textvalue.toUpperCase().indexOf(filter) > -1)
+            {
+                product[i].style.display = "";
+            }
+            else{
+                product[i].style.display = "none";
+            }
+        }
+    }
+}
+
+function onCheckout()
+{
+    alert("Thank you. Visit Again !!");
+    document.getElementById("checkoutForm").reset();
+    window.location = "index.html";
+}
+_______________________________________________________________________________________________________________________________________________________________
